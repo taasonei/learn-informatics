@@ -1,0 +1,40 @@
+name: learninformatics
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  dcdg: ^2.0.1
+  firebase_core: ^0.4.4+3
+  firebase_auth: ^0.16.0
+  cloud_firestore: ^0.13.5
+  firebase_storage: ^3.1.6
+  flutter_spinkit: ^4.1.2
+  rflutter_alert: ^1.0.3
+  provider: ^4.0.5
+  webview_flutter: ^0.3.22+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: fonts/Raleway-Regular.ttf
+        - asset: fonts/Raleway-Italic.ttf
+        - asset: fonts/Raleway-Bold.ttf
+          weight: 700
+        - asset: fonts/Raleway-BoldItalic.ttf
+        - asset: fonts/Raleway-Black.ttf
+          weight: 900
+
+
